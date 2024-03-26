@@ -1,0 +1,106 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('subtle-stripes.png');
+    background-size: 100px;
+    background-position: center;
+    height: 100%;
+    font-family: Merriweather;
+    
+}
+
+.container{
+display: flex;
+justify-content: center;
+} 
+
+.topdiv{
+    display:flex;
+    text-align: center;
+    align-items: center; 
+    margin-top: 10px;
+    color: pink;
+    justify-content: center;
+    font-size: large;
+   
+}
+   
+
+.topdiv >a{
+    margin-left: 15px;
+    text-decoration: none; 
+    color: rgb(119, 36, 50);  
+}
+
+.contct *{
+    display: flex;
+    text-decoration: none; 
+    color: rgb(119, 36, 50); 
+    justify-content: center;
+    font-size: large;
+    text-align: center;
+}
+
+.contct{
+    margin-top: 200px;
+}
+
+.pic1 { 
+display: grid;
+justify-content: start;
+margin-top: 10px;
+}
+
+
+.pic2 {
+    display: grid;  
+    margin-top: 10px;
+    justify-content: end; 
+}
+
+.pic2>img{
+    width: 300px;
+    height: 300px;
+    margin-top: 10px;
+    
+}
+
+.pic1>img{
+    width: 300px;
+    height: 300px;
+    margin-top: 10px;
+}
+
+.pic1>a{
+    text-decoration: none; 
+    font-size: small;
+    color: black;
+}
+.pic2>a{
+    text-decoration: none; 
+    font-size: small;
+}
+
+.container2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.orta >p{
+    margin-top: 20%;
+    text-align: center;
+    color: gray; 
+    
+    
+}
+
+/* .bir, .iki, .uc{
+    display: flex;
+    width: 300px;
+    height: auto;
+    margin-top: 10px;
+    justify-content: end;    
+} */
+
+
